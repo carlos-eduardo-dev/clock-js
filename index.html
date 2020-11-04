@@ -10,17 +10,60 @@
 </head>
 
 <body>
-    <div class="clock">
-        <div class="hour">
-            <div class="hr" id="hr"></div>
-        </div>
-        <div class="min">
-            <div class="mn" id="mn"></div>
-        </div>
-        <div class="sec">
-            <div class="sc" id="sc"></div>
+    <div class="real-time">
+        <div class="clock">
+            <div class="hour">
+                <div class="hr" id="hr"></div>
+            </div>
+            <div class="min">
+                <div class="mn" id="mn"></div>
+            </div>
+            <div class="sec">
+                <div class="sc" id="sc"></div>
+            </div>
         </div>
     </div>
+
+    <div class="timer">
+        <div class="clock">
+            <div class="hour">
+                <div class="hr" id="hrCrono"></div>
+            </div>
+            <div class="min">
+                <div class="mn" id="mnCrono"></div>
+            </div>
+            <div class="sec">
+                <div class="sc" id="scCrono"></div>
+            </div>
+        </div>
+        <div>
+            <div class="set-timer">
+                <div class="text-field">
+                    <input type="number" id="setHr" required>
+                    <label>Horas</label>
+                    <span></span>
+                </div>
+                :
+                <div class="text-field">
+                    <input type="number" id="setMn" required>
+                    <label>Minutos</label>
+                    <span></span>
+                </div>
+                :
+                <div class="text-field">
+                    <input type="number" id="setSc" required>
+                    <label>Segundos</label>
+                    <span></span>
+                </div>
+            </div>
+            <div class="btn">
+                <button onclick="start()">Start</button>
+                <button onclick="pause()">Pause</button>
+                <button onclick="stop()">Stop</button>
+            </div>
+        </div>
+    </div>
+
 
     <script src="/assets/scripts/script.js"></script>
 </body>
