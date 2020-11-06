@@ -39,3 +39,7 @@
 ## :pencil: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+<sup>Design e sistema de mostrar o horário atual desenvolvido seguindo o tutorial [Javascript Clock | CSS Neumorphism Working Analog Clock UI Design](https://www.youtube.com/watch?v=weZFfrjF-k4) do canal [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog).</sup>
