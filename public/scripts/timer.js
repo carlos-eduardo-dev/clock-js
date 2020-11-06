@@ -20,8 +20,6 @@ function start() {
         crono = setInterval(() => {
             if (hours.value == 0 && minutes.value == 0 && seconds.value == 0) {
                 stop()
-
-                alert("Acabou o tempo!")
             }
             else {
                 timer()
