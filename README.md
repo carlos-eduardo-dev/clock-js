@@ -17,12 +17,12 @@
 - ### **Pré-requisitos**
 
   - É **necessário** possuir algum servidor http local
-  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador (**Não necessário** se baixar o [arquivo.zip](https://github.com/carlos-eduardo-dev/proffy/archive/master.zip))
+  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador (**Não necessário** se baixar o [arquivo.zip](https://github.com/carlos-eduardo-dev/clock-js/archive/master.zip))
 
 1. Faça um clone do repositório:
 
     ```sh
-    $ git clone https://github.com/carlos-eduardo-dev/proffy.git
+    $ git clone https://github.com/carlos-eduardo-dev/clock-js.git
     ```
 
 2. Executando a Aplicação:
